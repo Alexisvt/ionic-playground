@@ -1,2 +1,9 @@
-<app-header title="alert"></app-header>
-<ion-content> </ion-content>
+<app-header [title]="title"></app-header>
+<ion-content>
+  <ion-button (click)="presentAlert()" color="primary" expand="full">
+    Show alert
+  </ion-button>
+  <ion-button (click)="presentSecondAlert()" color="secondary" expand="full">
+    Show second alert
+  </ion-button>
+</ion-content>
