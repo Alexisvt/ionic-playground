@@ -20,6 +20,11 @@ export class HomePage implements OnInit {
       name: 'Alert',
       redirectTo: '/alert',
     },
+    {
+      icon: 'bug-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar',
+    },
   ];
   constructor(private actionSheetCtrl: ActionSheetController) {}
 
